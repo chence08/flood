@@ -26,7 +26,7 @@
         "sg tongkang(yio chu kang rd)": 44,
         "craig road / duxton road": 44,
         "sg pandan kechil (aye)": 41,
-        "pie / tuas exit ": 40,
+        "pie / tuas exit": 40,
         "boon lay way": 40,
         "tampines road / jln teliti": 38,
         "exeter road / somerset rd": 38,
@@ -50,16 +50,16 @@
         "choa chu kang avenue 1/ teck wye lane": 26,
         "jurong east st 32 (blk 311)": 26,
         "woodlands rd / kje": 25,
+        "indus rd/ganges ave": 24,
         "jln nipah": 24,
         "sunset od (sunset way)": 23,
         "sg puak besar (cactus rd)": 22,
         "fort rd / katong pk": 22,
-        "indus rd/ganges ave": 21,
         "sg tongkang (lor buangkok)": 21,
         "thomson rd side drain": 20,
         "bedok canal (upper changi rd)": 20,
         "macpherson rd/ playfair rd": 19,
-        "balestier rd / thomson rd ": 19,
+        "balestier rd / thomson rd": 19,
         "chin bee rd/ international rd": 19,
         "playfair rd od (bartley rd east)": 18,
         "jln lokam/ upp paya lebar rd": 18,
@@ -131,7 +131,6 @@
         "sunset dr/sunset way": 4,
         "bt timah canal (keng lee rd)": 4,
         "queen rd od (prince rd)": 4,
-        "indus rd/ganges ave ": 3,
         "chin bee od (chin bee rd)": 3,
         "bishan st 21": 3,
         "boon lay way/jurong west st 51": 3,
@@ -190,5 +189,652 @@
         "2019": 154,
         "2020": 395,
         "2021": 1307
+    },
+    "coords": {
+        "sg pandan kechil (west coast highway)": [
+            1.30150000035292,
+            103.763179999745
+        ],
+        "thomson rd side drain": [
+            "thomson rd od(joan rd)"
+        ],
+        "jln tari serimp": [],
+        "seletar rd / neram rd": [
+            1.38737099986854,
+            103.868556999862
+        ],
+        "sime darby centre": [
+            1.33649090001399,
+            103.783220000038
+        ],
+        "grove dr": [],
+        "pie / tuas exit": [
+            "pie/tuas exit"
+        ],
+        "tampines rd / hougang ave 7": [
+            "tampines rd / hougang ave 3",
+            "tampines rd/ jln teliti",
+            "tampines ave 4"
+        ],
+        "sg pandan (aye)": [
+            1.31922799986714,
+            103.750299000067
+        ],
+        "upper paya lebar rd": [
+            1.34260170032697,
+            103.883583600123
+        ],
+        "sg pang sua (stagmont ring)": [
+            1.39244069968308,
+            103.753058600289
+        ],
+        "boon lay way": [
+            "boon lay way (blk 517c)",
+            "jurong canal (boon lay way)"
+        ],
+        "jln tari serimpi": [],
+        "bt canal (blackmore)": [],
+        "thomson walk": [
+            1.3764120997008,
+            103.833444999876
+        ],
+        "sg pandan kechil (nus)": [
+            "sg pandan kechil (aye)",
+            "sg pandan kechil (aye 9.2km)",
+            "sg pandan kechil (aye 7.9km)"
+        ],
+        "sg pang sua (bt panjang)": [
+            1.381099000424,
+            103.76127700031
+        ],
+        "bt canal (anamalai ave)": [
+            "bt timah canal (anamalai ave)",
+            "bt timah canal (maple ave)",
+            "pelton canal (kallang way)"
+        ],
+        "ang mo kio ave 3/mayflower ave": [
+            "ang mo kio ave 3/ mayflower ave"
+        ],
+        "indus rd/ganges ave": [
+            "tampines rd / hougang ave 3"
+        ],
+        "chin cheng ave/jamiyah children's home": [
+            "chin cheng ave/ jamiyah children's home"
+        ],
+        "arumugam rd": [
+            1.32564469967618,
+            103.891734800135
+        ],
+        "geylang river (paya lebar rd)": [
+            "geylang river (dakota cres)",
+            "jln afifi/ paya lebar rd",
+            "upper paya lebar rd"
+        ],
+        "bedok south rd/bedok south ave 1": [
+            "bedok south rd/ bedok south ave 1",
+            "bedok north ave 3"
+        ],
+        "siglap rd/marine parade rd": [
+            "marine parade central/ marine parade rd"
+        ],
+        "macpherson od (macpherson rd)": [
+            "machperson od (macpherson rd)",
+            "macpherson od (geylang bahru)",
+            "meng suan od (mandai rd)"
+        ],
+        "sunset od (sunset way)": [
+            "sunset dr/sunset way",
+            "sg ulu pandan (sunset walk)"
+        ],
+        "changi airport diversion drain (tanah merah gc)": [],
+        "chin bee od (chin bee rd)": [
+            "chin bee ave / third chin bee rd",
+            "chin bee od(jalan tukang)"
+        ],
+        "sg puak besar (cactus rd)": [
+            1.38932399986248,
+            103.851580999694
+        ],
+        "jurong industrial estate od (jln buroh)": [
+            1.31444940022197,
+            103.702019199744
+        ],
+        "commonwealth ave / commonwealth dr": [
+            1.30368400010437,
+            103.797217999793
+        ],
+        "alex canal (prince charles crescent)": [
+            "bt timah canal (prince of wales rd)",
+            "alex canal sub drain b (prince philip ave)"
+        ],
+        "alex canal (zion rd)": [
+            "pelton canal (airport rd)",
+            "stamford canal (killiney rd)",
+            "stamford canal (handy rd)"
+        ],
+        "bedok canal sub drain (jln chempaka kuning)": [
+            1.32956330029629,
+            103.951126199715
+        ],
+        "bedok canal (jln greja)": [
+            "bedok canal (ecp)",
+            "bedok canal (bedok reservoir rd)",
+            "bedok canal (upper changi rd)"
+        ],
+        "bedok north ave 4/sbs depot": [
+            "bedok north ave 3"
+        ],
+        "leng kee rd": [],
+        "tiong bahru rd / boon tiong rd": [
+            "tanjong pagar road / hoe chiang rd",
+            "mountbatten rd / tanjong katong rd"
+        ],
+        "alex canal sub drain b (prince philip ave)": [
+            1.29184960002618,
+            103.819517699933
+        ],
+        "cambridge road od": [
+            1.31417355006982,
+            103.847149690382
+        ],
+        "cte/moulmein rd": [
+            "cte/ moulmein rd"
+        ],
+        "ubi ave 2/ eunos link": [
+            1.3311071003714,
+            103.901186999991
+        ],
+        "jln seaview": [
+            1.30166300004033,
+            103.896811599963
+        ],
+        "sg whampoa (whampoa cc)": [
+            1.32449830031976,
+            103.856733699611
+        ],
+        "fort rd / katong pk": [
+            1.29679529998194,
+            103.887204200246
+        ],
+        "sg lanchar (jln boon lay)": [
+            "jurong canal (boon lay way)",
+            "sg blukar (lorong halus)"
+        ],
+        "sg kallang (bishan rd)": [
+            "sg tongkang (yio chu kang rd)",
+            "sg kallang sub drain (marymount rd)",
+            "sg ketapang (xilin ave)"
+        ],
+        "bt canal (jln kampong chantek)": [],
+        "sg seletar (nee soon rd)": [],
+        "sg tengah/sg tengah agrotechnology pk": [
+            "sg tengah rd/ sg tengah agrotechnology pk"
+        ],
+        "tampines road / jln teliti": [
+            "tampines rd/ jln teliti",
+            "tampines rd / hougang ave 3"
+        ],
+        "sg punggol (mugliston pk)": [
+            1.39142184044169,
+            103.881918494842
+        ],
+        "sg mandai (woodlands rd)": [
+            1.42659107477121,
+            103.761881391094
+        ],
+        "bt batok west ave 8/ pie": [],
+        "bedok canal (upper changi rd)": [
+            1.33404470031227,
+            103.949003999625
+        ],
+        "stamford canal (killiney rd)": [
+            1.30026019959964,
+            103.840848300027
+        ],
+        "marine parade rd / ambervilla": [
+            1.30070469964532,
+            103.903428899985
+        ],
+        "bt 1st diversion canal (sixth ave)": [
+            "bt timah 1st diversion canal (pine grove)",
+            "bt timah 1st diversion canal (holland green)",
+            "bt timah 2nd diversion canal (jln tenteram)"
+        ],
+        "lor kismis": [],
+        "lorong ong lye": [],
+        "lorong gambir": [],
+        "siglap canal (frankel walk)": [
+            1.31712420032158,
+            103.914289800256
+        ],
+        "sg tongkang (lor buangkok)": [
+            1.38271199991173,
+            103.877028000382
+        ],
+        "chin bee ave / third chin bee rd": [
+            1.33403199997498,
+            103.714877999784
+        ],
+        "tanjong penjuru / penjuru rd": [],
+        "chin bee od(jalan tukang)": [
+            1.32716500037226,
+            103.715866999597
+        ],
+        "woodlands rd / mandai rd": [
+            1.41400300024302,
+            103.754814000116
+        ],
+        "neo pee teck lane / pasir panjang rd": [
+            1.29228699998859,
+            103.768682999872
+        ],
+        "exeter road / somerset rd": [
+            "seletar rd / neram rd",
+            "balestier rd / thomson rd"
+        ],
+        "pie/tuas exit": [
+            1.32528599972152,
+            103.665510999751
+        ],
+        "tiong bahru rd/boon tiong rd": [
+            "tanjong pagar rd/craig rd"
+        ],
+        "lor ong lye / lor lew lian": [
+            1.34819659999163,
+            103.877885900239
+        ],
+        "macpherson rd/ playfair rd": [
+            1.33321800000137,
+            103.886970000491
+        ],
+        "bishan st 21": [
+            1.34749940025643,
+            103.840702399859
+        ],
+        "thomson rd / novena rise": [
+            "thomson rd od(joan rd)",
+            "upp thomson rd/ jln keli"
+        ],
+        "bt canal (keng lee rd)": [
+            "bt timah canal (keng lee rd)",
+            "bt timah canal (rifle range rd)",
+            "stamford canal (killiney rd)"
+        ],
+        "sg terusan (jln terusan)": [],
+        "yishun ave 2 / yishun ave 5": [
+            1.43097593122217,
+            103.835186916368
+        ],
+        "yuan ching rd / yung kuang rd": [
+            1.3316259999851,
+            103.724829699902
+        ],
+        "boon lay way/jurong west st 51": [
+            "boon lay way (blk 517c)"
+        ],
+        "kallang subsidary drain (lor 8 toa payoh)": [
+            "sg kallang sub drain (marymount rd)"
+        ],
+        "tampines road/fortune park": [
+            "tampines road od(tampines rd)",
+            "tampines rd / hougang ave 3",
+            "tampines ave 4"
+        ],
+        "sg tongkang(yio chu kang rd)": [
+            "sg tongkang (yio chu kang rd)",
+            "sg peng siang (choa chu kang ave 4)",
+            "sg tongkang (lor buangkok)"
+        ],
+        "kranji way": [
+            1.43868599995552,
+            103.743208200191
+        ],
+        "gul circle": [
+            1.31255399978045,
+            103.676528000421
+        ],
+        "sg kallang(bishan rd)": [
+            "sg tongkang (yio chu kang rd)",
+            "sg kallang sub drain (marymount rd)"
+        ],
+        "veerasamy rd": [
+            1.30657719989324,
+            103.855703999652
+        ],
+        "tampines road od(tampines rd)": [
+            1.3612629999632,
+            103.890323000154
+        ],
+        "tanjong pagar rd/craig rd": [
+            1.27729590003073,
+            103.843501299927
+        ],
+        "the regent singapore/tanglin mall": [
+            "the regent singapore / tanglin mall"
+        ],
+        "playfair rd od (bartley rd)": [
+            "playfair rd od (bartley rd east)"
+        ],
+        "meng suan od (mandai rd)": [
+            1.40248930026948,
+            103.817304500278
+        ],
+        "terang bulan ave / new upper changi rd": [
+            1.32262660015132,
+            103.923929400369
+        ],
+        "jln nipah": [
+            1.32623600013946,
+            103.952397999814
+        ],
+        "stamford canal (313 @ somerset)": [
+            1.30131100021411,
+            103.837729999914
+        ],
+        "cuscaden rd / tomlinson": [
+            "cuscaden rd /tomlinson"
+        ],
+        "ulu pandan canal (pine grove)": [
+            1.31599799988829,
+            103.775242999994
+        ],
+        "pelton canal (kallang way)": [
+            1.32170920019727,
+            103.878780800475
+        ],
+        "chin bee ave/third chin bee rd": [
+            "chin bee ave / third chin bee rd"
+        ],
+        "paya lebar rd": [
+            1.31822130003222,
+            103.892061700167
+        ],
+        "new upper changi rd / chai chee rd": [
+            "new upp changi rd / chai chee rd",
+            "new upp changi rd / blk 26"
+        ],
+        "bedok canal(upper changi rd east)": [
+            1.33059541449654,
+            103.951663229039
+        ],
+        "admiralty rd west / sembawang dr": [
+            "admiralty rd west/ senoko south rd"
+        ],
+        "marine parade rd/ambervilla": [
+            "marine parade rd / ambervilla"
+        ],
+        "clementi ave 4 / commonwealth ave west": [
+            1.31618599964329,
+            103.765244999845
+        ],
+        "lor chuan od (serangoon ave 2)": [
+            1.35288999979807,
+            103.866666000411
+        ],
+        "bt canal (jln jurong kechil)": [],
+        "woodlands rd / kje": [
+            1.38698200035549,
+            103.75686200009
+        ],
+        "clementi rd/pasir panjang rd": [
+            1.29251610035931,
+            103.768314500291
+        ],
+        "upper east coast rd / jalan haji salam": [
+            1.31948600032305,
+            103.954400999715
+        ],
+        "adam rd od (camden pk)": [
+            "carmichael rd od (cte )"
+        ],
+        "sg bankong (west coast rd)": [
+            "sg pandan kechil (west coast highway)",
+            "tembeling road od (east coast rd)",
+            "sg mandai (woodlands rd)"
+        ],
+        "playfair rd od (bartley rd east)": [
+            1.34151900049593,
+            103.881826699939
+        ],
+        "tampines rd / hougang ave 3": [
+            1.3618377996918,
+            103.893698899917
+        ],
+        "boon keng rd / bendemeer rd": [
+            1.31678200013705,
+            103.862852999801
+        ],
+        "mount vernon rd": [
+            1.34150430026551,
+            103.881130999763
+        ],
+        "sg serangoon branch (hougang ave 7)": [
+            1.36265899974197,
+            103.896032699694
+        ],
+        "gul way/pioneer rd": [
+            1.31096299985538,
+            103.670688000079
+        ],
+        "jalan kayu/sengkang west way": [],
+        "international rd/ second chin bee rd": [
+            1.32978751783871,
+            103.714300069386
+        ],
+        "jalan boonlay (bus stop b21339)": [
+            1.33036069970065,
+            103.708330099749
+        ],
+        "wan lee rd/ enterprise rd": [
+            "wan lee rd / enterprise rd",
+            "enterprise rd",
+            "chin bee rd/ international rd"
+        ],
+        "siang kuang ave (35)": [
+            1.32968669989125,
+            103.871989800022
+        ],
+        "craig road / duxton road": [],
+        "tanjong pagar road (tanjong pagar plaza)": [
+            "tanjong pagar road (orchid hotel)",
+            "tanjong pagar road / hoe chiang rd",
+            "tanjong pagar road (carltoncity hotel)"
+        ],
+        "jln lokam/ upp paya lebar rd": [
+            1.3455473001346,
+            103.881856200053
+        ],
+        "puay hee ave/ siak kew ave": [
+            1.32984890048799,
+            103.870159099966
+        ],
+        "lor gambir/ gambir walk": [
+            1.34498110019581,
+            103.875892299972
+        ],
+        "happy ave north (lamp post 11)": [
+            1.3311075001355,
+            103.881050200133
+        ],
+        "balestier rd / thomson rd": [
+            1.32638680012021,
+            103.842460300241
+        ],
+        "kallang river (jln taman)": [
+            1.32627250027783,
+            103.865433700389
+        ],
+        "langsat rd/ lor 105 changi": [
+            1.3153996997988,
+            103.90281000025
+        ],
+        "seletar north link": [
+            1.4289586002027,
+            103.879130800293
+        ],
+        "lorong chuan od (ais)": [
+            1.34922159969869,
+            103.85862290019
+        ],
+        "choa chu kang avenue 1/ teck wye lane": [
+            "choa chu kang ave 1/ teck wye lane"
+        ],
+        "upp thomson rd/ jln keli": [
+            1.35415680048082,
+            103.83434460035
+        ],
+        "upper hokien st (fook hai building)": [
+            1.2853174004597,
+            103.846337099907
+        ],
+        "kampung bahru road / silat road": [
+            1.27654199963112,
+            103.83189599973
+        ],
+        "commonwealth lane / commonwealth dr": [
+            1.30435389950706,
+            103.797432400483
+        ],
+        "west coast rd (blk 409)": [
+            "west coast rd (opp blk 408)",
+            "commonwealth dr (blk 402)",
+            "east coast rd/ lor stangee"
+        ],
+        "poole rd ps (wareham rd)": [
+            1.30775499976089,
+            103.89186400016
+        ],
+        "carmen st/ lakme terrace": [
+            1.3176421004427,
+            103.92636210015
+        ],
+        "alexandra rd / telok blangah rd": [
+            "alexandra rd/ telok blangah rd"
+        ],
+        "jurong east st 32 (blk 311)": [
+            1.3479840997827,
+            103.732185000397
+        ],
+        "chin bee rd/ international rd": [
+            1.3289087001011,
+            103.713284100092
+        ],
+        "sg pandan kechil (aye)": [
+            1.30428300015078,
+            103.770140000139
+        ],
+        "commonwealth drive / commonwealth lane": [
+            1.30371800023992,
+            103.797571000353
+        ],
+        "commonwealth lane (certis)": [
+            1.30453300030986,
+            103.797399999955
+        ],
+        "enterprise rd": [
+            1.33350999985799,
+            103.707011000039
+        ],
+        "neram od (upper neram rd)": [
+            1.38690000019011,
+            103.867242999848
+        ],
+        "dunearn rd / hillcrest rd": [
+            1.32778720020941,
+            103.805919200368
+        ],
+        "tan kah kee detention tank (stop lock c)": [],
+        "tan kah kee detention tank (stop lock b)": [],
+        "sg ulu pandan (sunset walk)": [
+            1.32286099981882,
+            103.767294999873
+        ],
+        "sg pandan (toh guan rd east)": [
+            "sg pandan (aye)",
+            "sg mandai (woodlands rd)",
+            "sg pandan (bukit batok east ave 6)"
+        ],
+        "tuas rd end od (43)": [],
+        "rose lane (lamp post 11f)": [
+            "seletar north link (lamp post 115)",
+            "happy ave north (lamp post 11)"
+        ],
+        "jurong town hall rd/ west coast rd": [
+            1.31943499991159,
+            103.744680000267
+        ],
+        "jurong east st 32 (blk 310)": [
+            "jurong east st 32 (blk 311)",
+            "jurong east subsidiary canal (blk 374)",
+            "lorong chuan od (blk 31)"
+        ],
+        "clementi rd / west coast rd": [
+            1.29345499971413,
+            103.768635999936
+        ],
+        "sg pandan kechil (college link)": [
+            1.30287800040814,
+            103.773364000282
+        ],
+        "sg pandan kechil (aye 9.2km)": [
+            1.30291900022493,
+            103.774066999791
+        ],
+        "bedok canal (laguna golf)": [
+            "bedok canal (ecp)",
+            "bedok canal (upper changi rd)"
+        ],
+        "cashew od (espa)": [
+            1.36941200031761,
+            103.764809000412
+        ],
+        "lakme terrace (19)": [
+            1.3175036004251,
+            103.926251499675
+        ],
+        "upper paya lebar rd / lim teck boo rd": [
+            1.34189950005683,
+            103.884427099733
+        ],
+        "choa chu kang way/ choa chu kang ave 1": [
+            1.37892699979369,
+            103.748339199926
+        ],
+        "bt timah canal (rifle range rd)": [
+            1.3367350002176,
+            103.781556999976
+        ],
+        "sunset dr/sunset way": [
+            1.32585999963793,
+            103.766070999692
+        ],
+        "mei hwan rd / cte": [
+            1.35464720000228,
+            103.858331300214
+        ],
+        "bt timah canal (keng lee rd)": [
+            1.31307279960195,
+            103.849997400159
+        ],
+        "siang kuang ave (unit 35)": [
+            "siang kuang ave (35)",
+            "siang kuang ave / macpherson rd"
+        ],
+        "kg bahru rd": [
+            1.27097850036174,
+            103.825869799927
+        ],
+        "queen rd od (prince rd)": [
+            1.32097249953678,
+            103.809755100184
+        ],
+        "stamford canal (lucky plaza)": [
+            1.30430000021674,
+            103.83330699963
+        ],
+        "marine parade central/ marine parade rd": [
+            1.30301110000968,
+            103.907030099891
+        ]
     }
 }
