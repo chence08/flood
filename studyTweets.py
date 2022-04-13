@@ -67,55 +67,122 @@ Now we generate some dashboard of
 with open('floodRisks.json', 'r') as f3:
     data = json.load(f3)
 
-with open('pub-water-level-sensors/sensors.json', 'r') as sss:
-    sensors = json.load(sss)
+# with open('pub-water-level-sensors/sensors.json', 'r') as sss:
+#     sensors = json.load(sss)
 
-sensorLocations = sensors.keys()
+# sensorLocations = sensors.keys()
 
-from collections import defaultdict as ddict
-from difflib import get_close_matches
+# from collections import defaultdict as ddict
+# from difflib import get_close_matches
 
-dashboard = {
-    "locations": ddict(int),
-    "tweetsPerYear": ddict(int),
-    "coords": {}
-}
+# dashboard = {
+#     "locations": ddict(int),
+#     "tweetsPerYear": ddict(int),
+#     "coords": {}
+# }
 
-errorCount = 0
+# errorCount = 0
 
+# for tag, tweet in data.items():
+#     location = tweet.partition(":")[0].strip()
+#     year = tag[:4]
+#     dashboard["locations"][location] += 1
+#     dashboard["tweetsPerYear"][year] += 1
+#     try:
+#         if location not in dashboard["coords"]:
+#             dashboard["coords"][location] = sensors[location]
+#     except KeyError:
+#         if location not in dashboard["coords"]:
+#             errorCount += 1
+#             dashboard["coords"][location] = get_close_matches(location, sensorLocations)
+
+# # # create list of locations that appeared at least 10 times, since low chance
+# # # of identical spelling mistakes.
+
+# # freqLocations = [location for location, frequency
+# #                     in dashboard["locations"].items() if frequency >= 10]
+
+# # finalLocations = []
+
+# # for location, frequency in dashboard["locations"].items():
+# #     if frequency < 10:
+# #         dashboard["locations"][location] = get_close_matches(location, freqLocations)
+
+# sortedLocations = {k: v for k, v in 
+#                     sorted(dashboard["locations"].items(),
+#                     key=lambda item: item[1], reverse=True)}
+
+# dashboard["locations"] = sortedLocations
+
+# with open('dashboard.json', 'w') as g4:
+#     json.dump(dashboard, g4, indent = 4)
+
+########################################################
+
+'''
+now we construct the targets
+1. year
+2. month
+3. day
+4. time
+5. latitude, longitude
+6. rise above/falls below/max
+7. percentage
+8. moderate/high
+'''
+
+with open("tweetGeoData.json", "r") as geo:
+    geoData = json.load(geo)
+
+import dateutil.parser
+from datetime import timedelta, timezone
+import re
+
+target = {}
+
+# convert the GMT tag to SGT
+tz = timezone(timedelta(hours=8))
 for tag, tweet in data.items():
-    location = tweet.partition(":")[0].strip()
-    year = tag[:4]
-    dashboard["locations"][location] += 1
-    dashboard["tweetsPerYear"][year] += 1
+    chunk1 = tweet.partition(":")
+    location = chunk1[0].strip()
     try:
-        if location not in dashboard["coords"]:
-            dashboard["coords"][location] = sensors[location]
+        COORDINATES = geoData[location]
+        if type(COORDINATES) is str:
+            COORDINATES = geoData[COORDINATES]
     except KeyError:
-        if location not in dashboard["coords"]:
-            errorCount += 1
-            dashboard["coords"][location] = get_close_matches(location, sensorLocations)
+        continue
 
-# # create list of locations that appeared at least 10 times, since low chance
-# # of identical spelling mistakes.
+    chunk2 = chunk1[-1].partition(".")
+    waterlevel = chunk2[0].split()
+    if len(waterlevel) == 4:
+        direction = "max"
+        percentage = 100
+    else:
+        direction = waterlevel[2]
+        percentage = int(waterlevel[4][:-1])
 
-# freqLocations = [location for location, frequency
-#                     in dashboard["locations"].items() if frequency >= 10]
+    chunk3 = chunk2[-1].partition(".")
+    risk = chunk3[0].split()[0]
 
-# finalLocations = []
+    TIME = chunk3[-1].split()[0]
+    if len(TIME) > 8: # remove extra dot
+        TIME = TIME[1:]
+    HOUR = int(TIME[:2])
+    MINUTE = int(TIME[3:5])
+    SECOND = int(TIME[6:])
 
-# for location, frequency in dashboard["locations"].items():
-#     if frequency < 10:
-#         dashboard["locations"][location] = get_close_matches(location, freqLocations)
+    DATE = dateutil.parser.parse(tag).astimezone(tz)
+    target[tag] = {
+        "year": DATE.year,
+        "month": DATE.month,
+        "day": DATE.day,
+        "hour": HOUR,
+        "minute": MINUTE,
+        "second": SECOND,
+        "direction": direction,
+        "percentage": percentage,
+        "risk": risk
+    }
 
-sortedLocations = {k: v for k, v in 
-                    sorted(dashboard["locations"].items(),
-                    key=lambda item: item[1], reverse=True)}
-
-dashboard["locations"] = sortedLocations
-
-with open('dashboard.json', 'w') as g4:
-    json.dump(dashboard, g4, indent = 4)
-
-print("number of distinct locations: ", len(dashboard["locations"]))
-print(errorCount)
+with open('target.json', 'w') as g5:
+    json.dump(target, g5, indent=4)
