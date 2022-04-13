@@ -179,6 +179,7 @@ for tag, tweet in data.items():
         "hour": HOUR,
         "minute": MINUTE,
         "second": SECOND,
+        "coordinates": COORDINATES,
         "direction": direction,
         "percentage": percentage,
         "risk": risk
