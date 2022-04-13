@@ -67,8 +67,8 @@ Now we generate some dashboard of
 with open('floodRisks.json', 'r') as f3:
     data = json.load(f3)
 
-# with open('pub-water-level-sensors/sensors.json', 'r') as sss:
-#     sensors = json.load(sss)
+with open('pub-water-level-sensors/sensors.json', 'r') as sss:
+    sensors = json.load(sss)
 
 # sensorLocations = sensors.keys()
 
@@ -148,7 +148,10 @@ for tag, tweet in data.items():
     try:
         COORDINATES = geoData[location]
         if type(COORDINATES) is str:
-            COORDINATES = geoData[COORDINATES]
+            try:
+                COORDINATES = geoData[COORDINATES]
+            except KeyError:
+                COORDINATES = sensors[COORDINATES]
     except KeyError:
         continue
 
